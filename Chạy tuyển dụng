@@ -1,0 +1,90 @@
+Upload code lên GitHub (có thể dùng Visual Studio Code hoặc tải trực tiếp).<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mô hình cấp 2 - Tuấn 123</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-red-600 text-white py-6 px-4 text-center">
+    <h1 class="text-3xl font-bold">MÔ HÌNH CẤP 2 TUẤN 123</h1>
+    <p class="mt-2 text-lg">Môi giới ngoài thị trường? Có khách là có tiền! KHÔNG cần vào sàn!</p>
+    <a href="#form" class="mt-4 inline-block bg-yellow-300 text-red-700 font-bold py-2 px-4 rounded shadow">ĐĂNG KÝ THAM GIA NGAY</a>
+  </header>
+
+  <!-- Video giới thiệu -->
+  <section class="p-6 text-center">
+    <h2 class="text-2xl font-bold mb-4">Video giới thiệu mô hình</h2>
+    <div class="aspect-w-16 aspect-h-9 max-w-3xl mx-auto">
+      <iframe class="w-full h-64" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Cơ chế hoạt động -->
+  <section class="bg-white py-10 px-6">
+    <h2 class="text-2xl font-bold mb-6 text-center">Cơ chế hoạt động đơn giản</h2>
+    <ol class="space-y-4 max-w-3xl mx-auto list-decimal list-inside">
+      <li>Bạn có khách => Gửi thông tin cho Chuyên gia Tuấn 123.</li>
+      <li>Kết nối và dẫn khách đi xem – chốt cọc.</li>
+      <li>Nhận hoa hồng 46.75% – 50% trực tiếp, không qua trung gian!</li>
+    </ol>
+  </section>
+
+  <!-- Bảng chia cầu -->
+  <section class="bg-gray-100 py-10 px-6">
+    <h2 class="text-2xl font-bold mb-4 text-center">Cơ chế chia cầu minh bạch</h2>
+    <div class="max-w-xl mx-auto">
+      <table class="w-full table-auto border border-gray-300">
+        <thead>
+          <tr class="bg-gray-200">
+            <th class="border px-4 py-2">Vai trò</th>
+            <th class="border px-4 py-2">Tỉ lệ chia</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border px-4 py-2">Môi giới cấp 2 (có khách)</td>
+            <td class="border px-4 py-2">46.75% – 50%</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-2">Đầu chủ/Chuyên gia</td>
+            <td class="border px-4 py-2">25.5%</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-2">Quản lý</td>
+            <td class="border px-4 py-2">4.25%</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-2">Chi phí văn phòng</td>
+            <td class="border px-4 py-2">7–9%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Đăng ký -->
+  <section id="form" class="py-10 px-6 bg-white">
+    <h2 class="text-2xl font-bold text-center mb-6">Đăng ký tham gia ngay</h2>
+    <form class="max-w-md mx-auto space-y-4">
+      <input type="text" placeholder="Họ và tên" class="w-full border p-2 rounded">
+      <input type="tel" placeholder="Số điện thoại" class="w-full border p-2 rounded">
+      <select class="w-full border p-2 rounded">
+        <option>Bạn có khách sẵn</option>
+        <option>Bạn cần nguồn hàng</option>
+        <option>Bạn có cả 2</option>
+      </select>
+      <button type="submit" class="w-full bg-red-600 text-white py-2 rounded font-bold">GỬI THÔNG TIN</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-red-700 text-white py-6 text-center mt-6">
+    <p>Tướng quân Tuấn – Giám đốc điều hành Tuấn 123 Mỹ Đình</p>
+    <p>📞 0975.626.023</p>
+    <p>Tải App Đại Thế Kỷ – Mã kích hoạt: <strong>BDA54AE5</strong></p>
+  </footer>
+</body>
+</html>
