@@ -16,7 +16,6 @@
   <!-- Header -->
   <header class="bg-gradient-to-r from-green-600 to-red-600 text-white py-6 px-6 flex items-center justify-between">
     <div class="flex items-center space-x-4">
-      <!-- Logo -->
       <img src="https://raw.githubusercontent.com/tuan123git/M-h-nh-c-p-2/main/logo.png" alt="Logo Tuấn 123" class="h-14 w-auto" />
       <h1 class="text-2xl md:text-3xl font-bold">CÔNG TY TUẤN 123 MIỀN BẮC</h1>
     </div>
@@ -27,8 +26,11 @@
   <section class="py-10 px-6 text-center bg-gray-50">
     <h2 class="text-2xl md:text-3xl font-bold mb-6 text-brand-red">Giới thiệu về Tuấn 123</h2>
     <p class="mb-6 max-w-2xl mx-auto">Khám phá hành trình vươn mình của Tuấn 123 Miền Bắc và lý do vì sao bạn – những Đầu khách giỏi – nên đồng hành cùng chúng tôi.</p>
-    <div class="aspect-w-16 aspect-h-9 max-w-4xl mx-auto shadow-lg rounded-lg overflow-hidden">
-      <iframe src="https://youtu.be/Ai3KpQpQvVg" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
+    <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
+      <div class="flex flex-col space-y-4">
+        <a href="https://www.youtube.com/watch?v=Ai3KpQpQvVg" target="_blank" class="bg-red-600 text-white font-bold py-2 px-4 rounded hover:bg-red-700 transition">▶️ Xem về Tuấn 123</a>
+        <a href="https://tuan123.daitheky.net/register/account" target="_blank" class="bg-green-600 text-white font-bold py-2 px-4 rounded hover:bg-green-700 transition">📝 Đăng ký tài khoản Đại Thế Kỷ</a>
+      </div>
     </div>
   </section>
 
@@ -39,16 +41,24 @@
     <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
       <div class="bg-green-600 text-white p-6 rounded-lg shadow-lg w-72">
         <h3 class="text-xl font-bold mb-2">50% Hoa hồng</h3>
-        <p>Lợi nhuận trực tiếp, không cắt, không phí ẩn.</p>
+        <p>Thu nhập thực lĩnh, không cắt phí.</p>
       </div>
       <div class="bg-red-600 text-white p-6 rounded-lg shadow-lg w-72">
         <h3 class="text-xl font-bold mb-2">Không phí<br>gia nhập</h3>
-        <p>Tham gia nhanh – làm ngay – nhận tiền liền tay.</p>
+        <p>Hỗ trợ tận tình 24/7. Tham gia sớm - ưu đãi khủng.</p>
       </div>
       <div class="bg-white border-2 border-green-600 text-green-700 p-6 rounded-lg shadow-lg w-72">
-        <h3 class="text-xl font-bold mb-2">Nguồn nhà dồi dào</h3>
-        <p>Kho nhà cập nhật liên tục trên App Đại Thế Kỷ.</p>
+        <h3 class="text-xl font-bold mb-2">Nguồn hàng 50 nghìn căn</h3>
+        <p>Nhà đẹp – Chuyên gia giỏi – Chủ hợp tác.</p>
       </div>
+    </div>
+
+    <!-- Contact Buttons -->
+    <div class="mt-10 flex flex-wrap justify-center gap-4">
+      <a href="tel:0981146499" class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition">📞 Trợ lý Mai</a>
+      <a href="tel:0975626023" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition">📞 Tướng quân Tuấn</a>
+      <a href="https://zalo.me/0975626023" target="_blank" class="bg-yellow-500 text-white font-bold py-2 px-4 rounded hover:bg-yellow-600 transition">💬 Zalo</a>
+      <a href="https://www.facebook.com/messages/t/1791333024284696/" target="_blank" class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition">💬 Messenger</a>
     </div>
   </section>
 
@@ -59,6 +69,10 @@
       <input type="hidden" name="_subject" value="Đầu khách đăng ký từ Landing Page" />
       <input type="hidden" name="_template" value="table" />
 
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Họ và tên *</label>
+        <input type="text" id="name" name="name" required placeholder="Nguyễn Văn A" class="w-full border border-gray-300 p-2 rounded" />
+      </div>
       <div>
         <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Số điện thoại *</label>
         <input type="tel" id="phone" name="phone" required placeholder="0901xxxxxx" class="w-full border border-gray-300 p-2 rounded" />
@@ -76,10 +90,15 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-green-700 text-white py-8 text-center space-y-2">
-    <p class="text-lg font-semibold">Tải App Đại Thế Kỷ trên CH Play hoặc AppStore</p>
-    <p>Đăng ký tài khoản và nhập mã kích hoạt: <span class="font-bold">BDA54AE5</span></p>
-    <p class="text-sm mt-4">© 2025 Công ty Tuấn 123 Miền Bắc – All rights reserved.</p>
+  <footer class="bg-green-700 text-white py-8 text-center space-y-4">
+    <p class="text-lg font-semibold">Tải App Đại Thế Kỷ:</p>
+    <div class="flex justify-center gap-4">
+      <a href="https://play.google.com/store" class="bg-white text-green-700 font-bold py-2 px-4 rounded hover:bg-gray-100 transition">CH Play</a>
+      <a href="https://www.apple.com/vn/app-store/" class="bg-white text-green-700 font-bold py-2 px-4 rounded hover:bg-gray-100 transition">App Store</a>
+    </div>
+    <p class="text-xl font-bold text-yellow-300">Mã kích hoạt: BDA54AE5</p>
+    <p class="text-sm">Địa chỉ công ty: <strong>Số 5 Đào Duy Anh, Kim Liên, Đống Đa, Hà Nội</strong></p>
+    <p class="text-sm">© 2025 Công ty Tuấn 123 Miền Bắc – All rights reserved.</p>
   </footer>
 </body>
 </html>
